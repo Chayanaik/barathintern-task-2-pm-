@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to right, #ffc0cb, #ffb6c1); /* Pink gradient background */
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Dark text */
+}
+
+h1 {
+    text-align: center;
+    color: #ff69b4; /* Pink header text */
+    font-size: 2.5rem; /* Larger font size */
+    margin-top: 2rem;
+}
+
+.jumbotron {
+    background: rgba(255, 192, 203, 0.8); /* Pink background with transparency */
+    transform-style: preserve-3d;
+    transition: .3s;
+    box-shadow: 0 15px 35px rgba(255, 192, 203, 0.6);
+    max-width: 60rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem; /* More padding */
+    border-radius: .5rem;
+    border: 1px solid #ff69b4; /* Pink border */
+}
+
+.well {
+    background: #ffe4e1; /* Light pink background color */
+    color: #333; /* Dark text color */
+    max-width: 60rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 2rem; /* More padding */
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0px 10px 15px rgba(255, 228, 225, 0.4); /* Lighter shadow */
+}
+
+#savebtn,
+#clrbtn {
+    font-size: 1.8rem; /* Larger button text */
+    padding: 1rem 2rem; /* More padding */
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#savebtn {
+    background: #ff1493; /* Pink button */
+}
+
+#savebtn:hover {
+    background: #ff0066; /* Darker pink on hover */
+}
+
+#clrbtn {
+    background: #ff6347; /* Coral button */
+}
+
+#clrbtn:hover {
+    background: #ff4500; /* Darker coral on hover */
+}
+
+/* issue list */
+.labid {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid #ff69b4; /* Pink border */
+}
+
+.labid span {
+    background: #ff69b4; /* Pink background */
+    color: #fff;
+    padding: 0.2rem 0.5rem; /* Adjusted padding */
+}
+
+.labid h6 {
+    margin-top: 5px;
+    color: #ff69b4; /* Pink text color */
+}
+
+.well p.glyphicon-user {
+    margin-left: 1rem;
+    padding: 1rem; /* Adjusted padding */
+}
+
+.well #closebtn,
+.well #delbtn {
+    font-size: 1.6rem; /* Slightly larger button text */
+    padding: 0.5rem 1rem; /* Adjusted padding */
+    border-radius: .3rem; /* Slightly rounded corners */
+}
+
+.well #closebtn {
+    background: #00ced1; /* Turquoise button */
+}
+
+.well #closebtn:hover {
+    background: #20b2aa; /* Darker turquoise on hover */
+}
+
+.well #delbtn {
+    background: #ff6b6b; /* Light red button */
+}
+
+.well #delbtn:hover {
+    background: #ff4500; /* Darker coral on hover */
+}
+
+/* Back button */
+.backbtn {
+    position: absolute;
+    font-size: 3rem;
+    float: left;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 2rem; /* Adjusted margin */
+    color: #ff69b4; /* Pink text color */
+}
+
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
